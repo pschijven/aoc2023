@@ -32,4 +32,5 @@
 *.app
 
 # Input files for Advent of Code
-input/*.txt
+*.dSYM
+.vscode
