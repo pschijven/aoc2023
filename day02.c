@@ -42,8 +42,6 @@ results_t compute_solution(const char *filename)
 
     results_t results = { .sum = 0, .sum_powers = 0 };
 
-    //long sum = 0;
-    //long sum_powers = 0;
     while((read = getline(&line, &len, fp)) != -1) {
         // Parse the game ID.
         int game_id;
